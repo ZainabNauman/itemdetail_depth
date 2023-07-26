@@ -84,45 +84,220 @@ class SpecificItemRatingBar extends StatelessWidget {
                             crossAxisAlignment: CrossAxisAlignment.start,
                             children: [
                               Row(
-                                children: const [
-                                  Expanded(child: Text("5")),
-                                  Text("3%")
+                                children: [
+                                  const Text(
+                                    "5",
+                                    style: TextStyle(fontSize: 20),
+                                  ),
+                                  const SizedBox(
+                                    width: 10,
+                                  ),
+                                  ClipRRect(
+                                    borderRadius: BorderRadius.circular(5),
+                                    child: Container(
+                                      width: 12,
+                                      height: 12,
+                                      color: const Color.fromRGBO(
+                                          255, 219, 71, 0.4),
+                                    ),
+                                  ),
+                                  const SizedBox(
+                                    width: 10,
+                                  ),
+                                  ClipRRect(
+                                    borderRadius: BorderRadius.circular(5),
+                                    child: Container(
+                                      width: 150,
+                                      height: 12,
+                                      color: const Color.fromRGBO(
+                                          255, 219, 71, 0.4),
+                                    ),
+                                  ),
+                                  const Expanded(
+                                    child: SizedBox(
+                                      width: 10,
+                                    ),
+                                  ),
+                                  const Text(
+                                    "3%",
+                                    style: TextStyle(fontSize: 20),
+                                  )
                                 ],
                               ),
                               const SizedBox(
                                 height: 10,
                               ),
                               Row(
-                                children: const [
-                                  Expanded(child: Text("4")),
-                                  Text("31%")
+                                children: [
+                                  const Text(
+                                    "4",
+                                    style: TextStyle(fontSize: 20),
+                                  ),
+                                  const SizedBox(
+                                    width: 10,
+                                  ),
+                                  ClipRRect(
+                                    borderRadius: BorderRadius.circular(5),
+                                    child: Container(
+                                      width: 12,
+                                      height: 12,
+                                      color: const Color.fromRGBO(
+                                          255, 219, 71, 0.4),
+                                    ),
+                                  ),
+                                  const SizedBox(
+                                    width: 10,
+                                  ),
+                                  ClipRRect(
+                                    borderRadius: BorderRadius.circular(5),
+                                    child: Container(
+                                      width: 200,
+                                      height: 12,
+                                      color: const Color.fromRGBO(
+                                          255, 219, 71, 0.4),
+                                    ),
+                                  ),
+                                  const Expanded(
+                                    child: SizedBox(
+                                      width: 10,
+                                    ),
+                                  ),
+                                  const Text(
+                                    "31%",
+                                    style: TextStyle(fontSize: 20),
+                                  )
                                 ],
                               ),
                               const SizedBox(
                                 height: 10,
                               ),
                               Row(
-                                children: const [
-                                  Expanded(child: Text("3")),
-                                  Text("40%")
+                                children: [
+                                  const Text(
+                                    "3",
+                                    style: TextStyle(fontSize: 20),
+                                  ),
+                                  const SizedBox(
+                                    width: 10,
+                                  ),
+                                  ClipRRect(
+                                    borderRadius: BorderRadius.circular(5),
+                                    child: Container(
+                                      width: 12,
+                                      height: 12,
+                                      color: const Color.fromRGBO(
+                                          255, 219, 71, 0.4),
+                                    ),
+                                  ),
+                                  const SizedBox(
+                                    width: 10,
+                                  ),
+                                  ClipRRect(
+                                    borderRadius: BorderRadius.circular(5),
+                                    child: Container(
+                                      width: 10,
+                                      height: 12,
+                                      color: const Color.fromRGBO(
+                                          255, 219, 71, 0.4),
+                                    ),
+                                  ),
+                                  const Expanded(
+                                    child: SizedBox(
+                                      width: 10,
+                                    ),
+                                  ),
+                                  const Text(
+                                    "40%",
+                                    style: TextStyle(fontSize: 20),
+                                  )
                                 ],
                               ),
                               const SizedBox(
                                 height: 10,
                               ),
                               Row(
-                                children: const [
-                                  Expanded(child: Text("2")),
-                                  Text("99%")
+                                children: [
+                                  const Text(
+                                    "2",
+                                    style: TextStyle(fontSize: 20),
+                                  ),
+                                  const SizedBox(
+                                    width: 10,
+                                  ),
+                                  ClipRRect(
+                                    borderRadius: BorderRadius.circular(5),
+                                    child: Container(
+                                      width: 12,
+                                      height: 12,
+                                      color: const Color.fromRGBO(
+                                          255, 219, 71, 0.4),
+                                    ),
+                                  ),
+                                  const SizedBox(
+                                    width: 10,
+                                  ),
+                                  ClipRRect(
+                                    borderRadius: BorderRadius.circular(5),
+                                    child: Container(
+                                      width: 100,
+                                      height: 12,
+                                      color: const Color.fromRGBO(
+                                          255, 219, 71, 0.4),
+                                    ),
+                                  ),
+                                  const Expanded(
+                                    child: SizedBox(
+                                      width: 10,
+                                    ),
+                                  ),
+                                  const Text(
+                                    "99%",
+                                    style: TextStyle(fontSize: 20),
+                                  )
                                 ],
                               ),
                               const SizedBox(
                                 height: 10,
                               ),
                               Row(
-                                children: const [
-                                  Expanded(child: Text("1")),
-                                  Text("55%")
+                                children: [
+                                  const Text(
+                                    "1",
+                                    style: TextStyle(fontSize: 20),
+                                  ),
+                                  const SizedBox(
+                                    width: 10,
+                                  ),
+                                  ClipRRect(
+                                    borderRadius: BorderRadius.circular(5),
+                                    child: Container(
+                                      width: 12,
+                                      height: 12,
+                                      color: const Color.fromRGBO(
+                                          255, 219, 71, 0.4),
+                                    ),
+                                  ),
+                                  const SizedBox(
+                                    width: 10,
+                                  ),
+                                  ClipRRect(
+                                    borderRadius: BorderRadius.circular(5),
+                                    child: Container(
+                                      width: 60,
+                                      height: 12,
+                                      color: const Color.fromRGBO(
+                                          255, 219, 71, 0.4),
+                                    ),
+                                  ),
+                                  const Expanded(
+                                    child: SizedBox(
+                                      width: 10,
+                                    ),
+                                  ),
+                                  const Text(
+                                    "55%",
+                                    style: TextStyle(fontSize: 20),
+                                  )
                                 ],
                               ),
                             ],
